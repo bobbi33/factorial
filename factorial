@@ -1,0 +1,21 @@
+#include "stdafx.h"
+
+
+int main(){
+
+	int n = 0;
+	int i= 0;
+	long result = 1;
+
+	scanf("%d",&n);
+	if(n <=0){
+		printf("%ld\n",1);
+	}else{
+		for(i = 1; i <= n; i++){
+			result = result * i;
+		}
+		printf("%ld\n",result);
+	}
+	return 0;
+}
+
